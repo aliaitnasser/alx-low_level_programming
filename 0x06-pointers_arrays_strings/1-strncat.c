@@ -1,4 +1,4 @@
-#include "main.h"`
+#include "main.h"
 
 /**
  *_strncat - concatenates n bytes from string dest to src
@@ -16,7 +16,7 @@ char *_strncat(char *dest, char *src, int n)
 	while (dest[i] != '\0')
 		i++;
 
-	while (src[j] != s[n])
+	while (src[j] != src[n])
 	{
 		dest[i] = src[j];
 		i++;
